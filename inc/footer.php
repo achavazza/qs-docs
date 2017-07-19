@@ -62,7 +62,7 @@
                         </a>
                         </li>
                         <li>
-                        — 
+                        —
                         </li>
                         <li>
                         Quickstarter es un proyecto de <a href="http://about.me/alejandro.chavazza"
@@ -73,9 +73,11 @@
                                                          </a>
                         </li>
                     </ul>
+                    <?php /*
                     <div>
                         Hosting gentileza de <a href="http://www.brized.com.ar" title="Brized Software" target="_blank">Brized</a>
                     </div>
+                    */ ?>
 
                 </div>
                 <div class="quad-2 quad-4-portrait align-right">
@@ -83,8 +85,8 @@
                         El concepto e idea de Quickstarter ha sido una inspiración en base a <a href="/inspiration.php" target="_blank">muchos otros proyectos</a>
                     </div>
                     <div>
-                        Quickstarter es gratis, libre y de dominio público, para mas información 
-                        — 
+                        Quickstarter es gratis, libre y de dominio público, para mas información
+                        —
                         <a href="http://unlicense.org/"
                            title="unlicense.org"
                            target="_blank"
