@@ -30,32 +30,34 @@
 </header>
 */ ?>
 <div class="jumbotron" id="jumbotron">
-    <div class="jumbo-content grid">
-        <div class="row">
-            <div class="triad-3">
-                <div class="logo align-center">
-                    <img src="img/logo.png" alt="Quickstarter" />
+    <div class="grid jumbo-content">
+        <div class="animated fadeInUp">
+            <div class="row">
+                <div class="triad-3">
+                    <div class="logo align-center">
+                        <img src="img/logo.png" alt="Quickstarter" />
+                    </div>
+                    <h3 class="h3 title align-center animated fadeInUp d100">
+                        A lightweight, Responsive, Mobile&dash;first, & Style&dash;Agnostic CSS Boilerplate/Framework
+                    </h3>
                 </div>
-                <h3 class="h3 title align-center">
-                    A lightweight, Responsive, Mobile&dash;first, & Style&dash;Agnostic CSS Boilerplate/Framework
-                </h3>
             </div>
-        </div>
-        <div class="row">
-            <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/qs/archive/master.zip" class="btn btn-hollow btn-block uppercase">
-                    Download .zip
-                </a>
-            </div>
-            <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/qs" class="btn btn-hollow btn-block uppercase" target="_blank">
-                    View on Github
-                </a>
-            </div>
-            <div class="triad-1 align-center">
-                <a href="/docs.html" class="btn btn-hollow btn-block uppercase">
-                    See documentation
-                </a>
+            <div class="row">
+                <div class="triad-1 align-center animated fadeInUp d200">
+                    <a href="https://github.com/achavazza/qs/archive/master.zip" class="btn btn-hollow btn-block uppercase">
+                        Download .zip
+                    </a>
+                </div>
+                <div class="triad-1 align-center animated fadeInUp d300">
+                    <a href="https://github.com/achavazza/qs" class="btn btn-hollow btn-block uppercase" target="_blank">
+                        View on Github
+                    </a>
+                </div>
+                <div class="triad-1 align-center animated fadeInUp d400">
+                    <a href="/docs.html" class="btn btn-hollow btn-block uppercase">
+                        See documentation
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -125,6 +127,7 @@
             </p>
         </div>
     </section>
+    </div>
 </div>
 <?php /*
 <body>

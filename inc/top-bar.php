@@ -8,7 +8,7 @@
             </div>
             <div class="quad-3 align-center align-right-sm">
                 <ul class="flush menu">
-                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="demo.html" target="_blank">Demo</a></li>
                     <li><a href="docs.html">Grid</a></li>
                     <li><a href="forms.html">Forms</a></li>
                     <li><a href="components.html">Components</a></li>

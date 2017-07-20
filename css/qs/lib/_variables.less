@@ -24,6 +24,7 @@
 // Type
 // --------------------------------
 @baseFontFamily: "Open Sans","Segoe UI", Segoe, Candara, Frutiger, "Frutiger Linotype", Helvetica, Arial, sans-serif;
+@altFontFamily : "Montserrat", @baseFontFamily;
 
 @lineHeight    : 1.5;
 @baseFontSize  : 14px;
@@ -59,7 +60,8 @@
 @elemSpacing : .5em;      // 4
 @elemIndent  : 1em;       // 5
 @elemBlock   : 0.5em 1em; // 6
-@elemRadius  : 3px;       //
+@elemBorder  : 1px;       //
+@elemRadius  : 2px;       //
 
 
 
@@ -85,6 +87,7 @@
 // button separation
 
 @btnPadding      : @elemBlock;
+@btnBorder       : @elemBorder;
 @btnRadius       : @elemRadius;
 
 // - #Complex
@@ -109,6 +112,7 @@
 @labelSpan       : @elemSpan;
 @inputPadding    : @elemPadding;
 @inputSpacing    : @elemSpacing;
+@inputBorder     : @elemBorder;
 @inputRadius     : @elemRadius;
 
 

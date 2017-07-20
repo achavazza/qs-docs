@@ -7,9 +7,9 @@
     <meta name="description" content="Construye tu proximo proyecto HTML5 responsive adaptado a tablets y móbiles en minutos - Sistema de Grid HTML5 "  />
      <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="http://achavazza.github.io/getquickstarter/favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:200,400|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/qs.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
@@ -27,7 +27,7 @@
             </div>
             <div class="quad-3 align-center align-right-sm">
                 <ul class="flush menu">
-                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="demo.html" target="_blank">Demo</a></li>
                     <li><a href="docs.html">Grid</a></li>
                     <li><a href="forms.html">Forms</a></li>
                     <li><a href="components.html">Components</a></li>
@@ -40,32 +40,34 @@
     </div>
 </div>
 <div class="jumbotron" id="jumbotron">
-    <div class="jumbo-content grid">
-        <div class="row">
-            <div class="triad-3">
-                <div class="logo align-center">
-                    <img src="img/logo.png" alt="Quickstarter" />
+    <div class="grid jumbo-content">
+        <div class="animated fadeInUp">
+            <div class="row">
+                <div class="triad-3">
+                    <div class="logo align-center">
+                        <img src="img/logo.png" alt="Quickstarter" />
+                    </div>
+                    <h3 class="h3 title align-center animated fadeInUp d100">
+                        A lightweight, Responsive, Mobile&dash;first, & Style&dash;Agnostic CSS Boilerplate/Framework
+                    </h3>
                 </div>
-                <h3 class="h3 title align-center">
-                    A lightweight, Responsive, Mobile&dash;first, & Style&dash;Agnostic CSS Boilerplate/Framework
-                </h3>
             </div>
-        </div>
-        <div class="row">
-            <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/quickstarter/archive/master.zip" class="btn btn-hollow btn-block uppercase">
-                    Download .zip
-                </a>
-            </div>
-            <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/quickstarter" class="btn btn-hollow btn-block uppercase" target="_blank">
-                    View on Github
-                </a>
-            </div>
-            <div class="triad-1 align-center">
-                <a href="/docs.php" class="btn btn-hollow btn-block uppercase">
-                    See documentation
-                </a>
+            <div class="row">
+                <div class="triad-1 align-center animated fadeInUp d200">
+                    <a href="https://github.com/achavazza/qs/archive/master.zip" class="btn btn-hollow btn-block uppercase">
+                        Download .zip
+                    </a>
+                </div>
+                <div class="triad-1 align-center animated fadeInUp d300">
+                    <a href="https://github.com/achavazza/qs" class="btn btn-hollow btn-block uppercase" target="_blank">
+                        View on Github
+                    </a>
+                </div>
+                <div class="triad-1 align-center animated fadeInUp d400">
+                    <a href="/docs.html" class="btn btn-hollow btn-block uppercase">
+                        See documentation
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -111,6 +113,7 @@
             </p>
         </div>
     </section>
+    </div>
 </div>
 <footer id="footer">
 	Made with <i class="icon-love"></i> from Santa Fe, Argentina.

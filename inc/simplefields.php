@@ -39,5 +39,5 @@
         <input class="btn" type="submit" value="Submit" />
         <button class="btn">Button</button>
         <a href="#" class="btn">Link</a>
-        <button href="#" class="btn btn-link">Link</button>
+        <button class="btn btn-link">Link</button>
     </div>

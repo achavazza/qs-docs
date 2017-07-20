@@ -13,8 +13,8 @@ $(function(){
         marginTop: hHeight,
         offsets : false
     });
-    $('#jumbotron').children('.jumbo-content').addClass('loaded');
-    $('#jumbotron').height(jumboheight)
+    //$('#jumbotron').children('.jumbo-content').addClass('loaded');
+    //$('#jumbotron').height(jumboheight);
     /*$('#show-sidebar').on('click', function(){
         $('body').toggleClass('off-canvas');
         return false;

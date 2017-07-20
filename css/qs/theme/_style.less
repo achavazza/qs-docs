@@ -23,25 +23,45 @@
 
  	text-shadow: 0 1px 0 @brandAccent;
 
+    min-height: 100vh;
+
  	.title{
  		margin-bottom: 40px;
  	}
  	.btn{
- 		margin-bottom: 0.5em;
+        border-radius: 2em;
+        font-family: @altFontFamily;
+        font-weight: lighter;
+        border-width: 2px;
+        padding: 1em 2em;
+        @media (min-width: @screenLargeDevice){
+            font-size: 1.5em;
+        }
+        margin-bottom: 0.5em;
+
+        &:hover,
+        &:active{
+            background-color: #fff;
+            color: @brandAccent;
+            border-color: transparent;
+        }
  	}
  	.jumbo-content{
- 		position: absolute;
- 		top: 50%;
- 		left: 0;
- 		right: 0;
- 		transform: translateY(0);
- 		opacity: 0;
- 		.transition(transform, 1s, ease-in-out);
+        transform: translate(0, 20vh);
+ 		//position: absolute;
+ 		//top: 50%;
+ 		//left: 0;
+ 		//right: 0;
+ 		//transform: translate(0, 50%);
+ 		//opacity: 0;
+ 		//.transition(transform, 1s, ease-in-out);
  	}
+    /*
  	.jumbo-content.loaded{
  		opacity: 1;
  		transform: translateY(-50%);
  	}
+    */
  }
 .fixedspacer{
  	width: auto !important;
@@ -56,7 +76,7 @@
  	right: 0 !important;*/
  	a{
  		color: inherit;
- 		padding: 10px;
+ 		padding: 10px 1em;
  		display: block;
  	}
  	.logo{
@@ -107,7 +127,13 @@
  		padding: 80px 0;
  	}
     .title{
+        font-family: @altFontFamily;
+        font-weight: lighter;
+        text-transform: uppercase;
         margin-top: 0;
+        &.h4{
+            font-weight: normal;
+        }
     }
  	//margin-top: -40px;
  	//.h1,
@@ -145,6 +171,11 @@
  	margin-bottom: 1em;
  }
 
+.d100{ animation-delay: 100ms; }
+.d200{ animation-delay: 200ms; }
+.d300{ animation-delay: 300ms; }
+.d400{ animation-delay: 400ms; }
+.d500{ animation-delay: 500ms; }
 
 .baseline-grid {
     background-image: -moz-linear-gradient(top, transparent 95%, fade(@brandPrimary, 50%) 100%);
