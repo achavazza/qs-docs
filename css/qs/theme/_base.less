@@ -13,7 +13,8 @@
 body{
     // thanks to http://cssfontstack.com/
     font-family: @baseFontFamily;
-     line-height: 1.5;
+    line-height: @lineHeight;
+    //line-height: 1.5;
     font-size: @baseFontSize;
     color: @baseFontColor;
 }
@@ -25,17 +26,16 @@ body{
 .h5{
     display: block;
     font-weight: bold;
-    line-height: 1.2;
-    margin: @hSpacing;
+    //line-height: 1.2;
+    //margin: @hSpacing;
 }
 
-.h1 { font-size: @h1FontSize; }
-.h2 { font-size: @h2FontSize; }
-.h3 { font-size: @h3FontSize; }
-.h4 { font-size: @h4FontSize; }
-.h5 { font-size: @h5FontSize; }
-//.h6 { font-size: @h6FontSize; }
-
+.h1 { .fontProps(@h1FontSize) }
+.h2 { .fontProps(@h2FontSize) }
+.h3 { .fontProps(@h3FontSize) }
+.h4 { .fontProps(@h4FontSize) }
+.h5 { .fontProps(@h5FontSize) }
+.h6 { .fontProps(@h6FontSize) }
 /*.subheader { font-size: @subFontSize; font-weight: normal;}
 
 .subheader {

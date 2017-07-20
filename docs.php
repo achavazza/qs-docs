@@ -1,3 +1,4 @@
+<?php require('_bootstrap.php'); ?>
 <?php include('inc/head.php') ?>
 <?php include('inc/top-bar.php') ?>
 <div class="grid">
@@ -62,7 +63,7 @@
                     That's why you do not need to include all device variants. Only in cases specifically required
                 </blockquote>
             </section>
-            
+
 
             <section id="grid">
                 <h2 class="h1 title">The Grid</h2>
@@ -98,10 +99,10 @@
     </div>
 </div>
 ') ?>
-</div>  
+</div>
                 <h4 class="h4 title">Responsive</h4>
                 <p>
-                    You can also add <code>.quad-1-sm</code> or <code>.quad-1-md</code> or <code>.quad-1-lg</code> to breakdown the <code>.quad-x</code> on that device 
+                    You can also add <code>.quad-1-sm</code> or <code>.quad-1-md</code> or <code>.quad-1-lg</code> to breakdown the <code>.quad-x</code> on that device
                 </p>
                 <blockquote>
                     That means the grid is going to be <code>.quad-1</code>/<code>.quad-3</code> until changes <code>.quad-2</code>/<code>.quad-2</code> on a medium or large device
@@ -126,7 +127,7 @@
     </div>
 </div>
 ') ?>
-</div>      
+</div>
             <section id="nesting">
             <h2 class="h2 title">Nesting</h2>
             <p>
@@ -161,7 +162,7 @@
     </div>
 </div>
 ') ?>
-</div>  
+</div>
             </section>
             <section id="grid-snap">
             <h2 class="h2 title">Grid Snap</h2>
@@ -188,7 +189,7 @@
     </div>
 </div>
 ') ?>
-</div>  
+</div>
             </section>
             <section id="grid-fluid">
             <h2 class="h2 title">Grid fluid</h2>
@@ -219,7 +220,7 @@
     </div>
 </div>
 ') ?>
-</div>  
+</div>
             </section>
             </section>
 
@@ -275,7 +276,7 @@
 
 <h3 class="h4 title">Responsive</h3>
                 <p>
-                    You can also add <code>.prefix-1-sm</code> or <code>.suffix-1-md</code> to breakdown the <code>.prefix-x</code> or <code>.suffix-x</code> on that device 
+                    You can also add <code>.prefix-1-sm</code> or <code>.suffix-1-md</code> to breakdown the <code>.prefix-x</code> or <code>.suffix-x</code> on that device
                 </p>
                 <blockquote>
                     That means the grid gonna be <code>.prefix-x</code>/<code>.suffix-x</code> until changes to a medium or large device
@@ -316,8 +317,8 @@
     </div>
 </div>
 ') ?>
-</div>  
-                <?php /* 
+</div>
+                <?php /*
                 <div>
                     <?php include('inc/grid-example.php') ?>
                 </div>
@@ -637,7 +638,7 @@
 </div>
 ') ?>
 </div>
-            
+
             </section>
             <section id="debug">
                 <h2 class="h1 title">Debug</h2>

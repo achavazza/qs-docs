@@ -1,6 +1,6 @@
 <?php include('inc/head.php') ?>
 <?php include('inc/top-bar.php') ?>
-<?php /* 
+<?php /*
 <header id="header">
     <ul class="flush">
         <li><a href="#">Intro</a></li>
@@ -72,10 +72,10 @@
                 All compiled & minimized in a file <b>less than 30kb!</b>
             </p>
             <p>
-                Quickstarter is a tool for begin your proyect, we not define how it will look. 
+                Quickstarter is a tool for begin your proyect, we not define how it will look.
                 It's higly flexible & customizable, but you ALWAYS have the last word.
             </p>
-            <?php /* 
+            <?php /*
             <div class="files">
                 <ul class="list">
                     <li>lib/
@@ -126,7 +126,7 @@
         </div>
     </section>
 </div>
-<?php /* 
+<?php /*
 <body>
     <div class="jumbotron">
         <div class="grid">

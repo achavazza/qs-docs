@@ -1,3 +1,4 @@
+<?php require('_bootstrap.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +28,3 @@
     */ ?>
 </head>
 <body>
-<?php
-function showCode($string) {
-    $output = '<pre class="line-numbers"><code class="language-markup">'
-            . htmlentities($string)
-            . '</code></pre>';
-    return $output;
-}
- ?>

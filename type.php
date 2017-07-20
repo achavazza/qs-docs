@@ -22,9 +22,9 @@
                 Add titling styles, just add <code>.h1</code>, <code>.h2</code>, <code>.h3</code>, <code>.h3</code>, <code>.h4</code>, <code>.h5</code> to any element
             </p>
             <blockquote>
-                We do this for SEO reasons, someteimes you need a minimal <code>&lt;h1&gt;</code> and a big bold text like a title, but it's a <code>&lt;span&gt;</code>
+                We do this for SEO reasons, sometimes you need a minimal <code>&lt;h1&gt;</code> and a big bold text like a title, but it's a <code>&lt;span&gt;</code>
             </blockquote>
-                
+
 <h4 class="h4 title">Example</h4>
 <div class="example">
 <div class="samp">
@@ -75,7 +75,7 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 </div>
-<?php 
+<?php
 echo showCode('
 <h1>This is a unstyled h1</h1>
 <span class="h1">Heading 1</span>
@@ -89,7 +89,14 @@ echo showCode('
 <span class="h5">Heading 5</span>
 <p>...</p>
 ') ?>
-</div>  
+</div>
+            </section>
+            <section id="vertical-rythm">
+                <h2 class="h1 title">Vertical Rythm</h2>
+                <p>
+                    In <code>_variables.less</code> we habe added some mixins to ensure the correct vertical rythm thore are optional you can allways define your font sizes at <code>_variables.less</code> and <code>_base.less</code>
+                </p>
+                <a class="btn btn-primary" target="_blank" href="demos/type-test.html">See full standalone example</a>
             </section>
             <section id="lists">
                 <h2 class="h2 title">Lists</h2>
@@ -98,7 +105,7 @@ echo showCode('
                     <p>
                         Just because you will often use ordered & unordered lists for navigation purposes, they are reseted, but, if you want a explicit list, just add a <code>.list</code> to their parent
                     </p>
-                
+
 <h4 class="h4 title">Example - unstyled</h4>
 <div class="example">
 <div class="samp">
@@ -120,7 +127,7 @@ echo showCode('
         </li>
     </ul>
 </div>
-<?php 
+<?php
 echo showCode('
 <ul>
     <li>Item 1</li>
@@ -164,7 +171,7 @@ echo showCode('
         </li>
     </ul>
 </div>
-<?php 
+<?php
 echo showCode('
 <ul class="list">
     <li>Item 1</li>
@@ -184,8 +191,8 @@ echo showCode('
     </li>
 </ul>
 ') ?>
-</div>  
-    </div>  
+</div>
+    </div>
     <div class="quad-2">
 <h4 class="h4 title">Example - ordered list</h4>
 <div class="example">
@@ -208,7 +215,7 @@ echo showCode('
         </li>
     </ol>
 </div>
-<?php 
+<?php
 echo showCode('
 <ol class="list">
     <li>Item 1</li>
@@ -228,16 +235,16 @@ echo showCode('
     </li>
 </ol>
 ') ?>
-</div>  
-    </div>  
-</div>  
+</div>
+    </div>
+</div>
         </section>
         <section id="definition">
             <h3 class="h2 title">Definition lists</h3>
             <p>
                 Definition lists are useful for displaying data, a label an their value, to style them just add <code>.dl-list</code> or <code>.dl-vertical</code> or if you want <code>.dl-horizontal</code> they will fit the same values with <code>.form form-horizontal</code>
             </p>
-                
+
 <h4 class="h4 title">Example - unstyled</h4>
 <div class="example">
 <div class="samp">
@@ -259,7 +266,7 @@ echo showCode('
         </dd>
     </dl>
 </div>
-<?php 
+<?php
 echo showCode('
 <dl>
     <dt>definition</dt>
@@ -294,7 +301,7 @@ echo showCode('
         </dd>
     </dl>
 </div>
-<?php 
+<?php
 echo showCode('
 <dl class="dl-list">
     <dt>definition</dt>
@@ -305,8 +312,8 @@ echo showCode('
     <dd>...</dd>
 </dl>
 ') ?>
-</div>  
-    </div>  
+</div>
+    </div>
     <div class="quad-2">
 <h4 class="h4 title">Example - list horizontal</h4>
 <div class="example">
@@ -329,7 +336,7 @@ echo showCode('
         </dd>
     </dl>
 </div>
-<?php 
+<?php
 echo showCode('
 <dl class="dl-horizontal">
     <dt>definition</dt>
@@ -340,9 +347,9 @@ echo showCode('
     <dd>...</dd>
 </dl>
 ') ?>
-</div>  
-    </div>  
-</div>  
+</div>
+    </div>
+</div>
                 </section>
             </section>
             <section id="tables">
@@ -356,7 +363,7 @@ echo showCode('
             <blockquote>
                 Stripped may not work on IE8, because lacks the pseudoelement <code>:nth-child(odd)</code>
             </blockquote>
-                
+
 <h4 class="h4 title">Example - Default</h4>
 <div class="example">
 <div class="samp">
@@ -378,7 +385,7 @@ echo showCode('
         </tr>
     </table>
 </div>
-<?php 
+<?php
 echo showCode('
     <table class="table">
         <tr>
@@ -398,7 +405,7 @@ echo showCode('
         </tr>
     </table>
 ') ?>
-</div>  
+</div>
 <h4 class="h4 title">Example - Stripped</h4>
 <div class="example">
 <div class="samp">
@@ -420,7 +427,7 @@ echo showCode('
         </tr>
     </table>
 </div>
-<?php 
+<?php
 echo showCode('
     <table class="table table-stripped">
         <tr>
@@ -440,7 +447,7 @@ echo showCode('
         </tr>
     </table>
 ') ?>
-</div>  
+</div>
 <h4 class="h4 title">Example - Bordered & Stripped</h4>
 <div class="example">
 <div class="samp">
@@ -472,7 +479,7 @@ echo showCode('
         </tr>
     </table>
 </div>
-<?php 
+<?php
 echo showCode('
     <table class="table table-bordered table-stripped">
         <tr>
@@ -502,7 +509,7 @@ echo showCode('
         </tr>
     </table>
 ') ?>
-</div>  
+</div>
             </section>
 
         </div>

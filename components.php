@@ -40,7 +40,7 @@
     <a class="btn btn-alt"      href="#">alternative</a>
     <a class="btn btn-inverse"  href="#">inverse</a>
 </div>
-<?php 
+<?php
 echo showCode('
 <a class="btn"              href="#">button</a>
 <a class="btn btn-default"  href="#">default</a>
@@ -52,12 +52,12 @@ echo showCode('
 <a class="btn btn-alt"      href="#">alternative</a>
 <a class="btn btn-inverse"  href="#">inverse</a>
 ') ?>
-</div>  
+</div>
         </section>
         <section id="button-group">
                 <h2 class="h1 title">Button group</h2>
                 <p>
-                    Useful for use as paginator, simply wrap some a <code>.btn-group</code> on some <code>.btn</code> 
+                    Useful for use as paginator, simply wrap some a <code>.btn-group</code> on some <code>.btn</code>
                 </p>
                 <blockquote>
                     Also works with <code>.label</code>
@@ -73,7 +73,7 @@ echo showCode('
         <a class="btn" href="#">5</a>
     </div>
 </div>
-<?php 
+<?php
 echo showCode('
 <div class="btn-group">
     <a class="btn" href="#">1</a>
@@ -83,7 +83,7 @@ echo showCode('
     <a class="btn" href="#">5</a>
 </div>
 ') ?>
-</div> 
+</div>
 <div class="example">
 <div class="samp">
     <div class="btn-group">
@@ -98,7 +98,7 @@ echo showCode('
         <a class="btn btn-inverse"  href="#">inverse</a>
     </div>
 </div>
-<?php 
+<?php
 echo showCode('
 <div class="btn-group">
     <a class="btn" href="#">button</a>
@@ -112,7 +112,7 @@ echo showCode('
     <a class="btn btn-inverse"  href="#">inverse</a>
 </div>
 ') ?>
-</div>  
+</div>
         </section>
         <section id="labels">
             <h2 class="h1 title">Labels</h2>
@@ -134,7 +134,7 @@ echo showCode('
     <a class="label label-alt"      href="#">alternative</a>
     <a class="label label-inverse"  href="#">inverse</a>
 </div>
-<?php 
+<?php
 echo showCode('
 <a class="label"                href="#"> label </a>
 <a class="label label-default"  href="#"> default </a>
@@ -146,7 +146,7 @@ echo showCode('
 <a class="label label-alt"      href="#"> alternative </a>
 <a class="label label-inverse"  href="#"> inverse </a>
 ') ?>
-</div>  
+</div>
         </section>
         <section id="badges">
             <h2 class="h1 title">Badges</h2>
@@ -169,7 +169,7 @@ echo showCode('
     <a class="badge badge-alt"      href="#">alternative</a>
     <a class="badge badge-inverse"  href="#">inverse</a>
 </div>
-<?php 
+<?php
 echo showCode('
 <a class="badge"                href="#"> badge </a>
 <a class="badge badge-default"  href="#"> default </a>
@@ -201,7 +201,7 @@ echo showCode('
         <sub class="badge badge-danger" href="#">2</sub>
     </span>
 </div>
-<?php 
+<?php
 echo showCode('
 <span class="label">
     Example
@@ -216,7 +216,7 @@ echo showCode('
     <sub class="badge badge-danger" href="#">2</sub>
 </span>
 ') ?>
-</div>  
+</div>
         </section>
         <section id="messages">
             <h2 class="h1 title">Messages</h2>
@@ -236,7 +236,7 @@ echo showCode('
     <div class="message message-alt"      >alternative</div>
     <div class="message message-inverse"  >inverse</div>
 </div>
-<?php 
+<?php
 echo showCode('
 <div class="message"                 > message </div>
 <div class="message message-default" > default </div>
@@ -248,7 +248,7 @@ echo showCode('
 <div class="message message-alt"     > alternative </div>
 <div class="message message-inverse" > inverse </div>
 ') ?>
-</div>  
+</div>
         </section>
         </div>
     </div>

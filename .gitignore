@@ -1,2 +1,6 @@
 
 _bulk-php2html.php
+css/qs/theme/__type.less
+css/qs/theme/_type.less
+_bootstrap.php
+*.php

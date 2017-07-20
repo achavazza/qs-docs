@@ -334,3 +334,22 @@
 .boxWrap(@pdBox){
     margin: 0 -@pdBox;
 }
+
+// Box element mixin
+// --------------------------------
+.fontProps(@fs){
+    //font-size: @fs;
+    font-size: round((@fs / @baseFontSize) * 1em, 4);
+    @calc : round((@base / @fs) * 1em, 4);
+    line-height:   @calc;
+    margin-top:    @calc * @hModTop;
+    margin-bottom: @calc * @hModBottom;
+}
+.fontProps(@fs) when (@base < @fs) {
+    font-size: round((@fs / @baseFontSize) * 1em, 4);
+    @calcAlt : round(((@base * 2) / @fs) * 1em, 4);
+    @calc    : round(( @base / @fs) * 1em, 4);
+    line-height:   @calcAlt;
+    margin-top:    @calc * @hModTop;
+    margin-bottom: @calc * @hModBottom;
+}

@@ -23,22 +23,31 @@
 
 // Type
 // --------------------------------
-@baseFontFamily: "Montserrat","Segoe UI", Segoe, Candara, Frutiger, "Frutiger Linotype", Helvetica, Arial, sans-serif;
+@baseFontFamily: "Open Sans","Segoe UI", Segoe, Candara, Frutiger, "Frutiger Linotype", Helvetica, Arial, sans-serif;
 
+@lineHeight    : 1.5;
 @baseFontSize  : 14px;
 
-@h1FontSize    : 2.441em ;
-@h2FontSize    : 1.953em ;
-@h3FontSize    : 1.563em ;
-@h4FontSize    : 1.25em  ;
-@h5FontSize    : 0.8em   ;
+@h1FontSize    : 24px ;
+@h2FontSize    : 22px ;
+@h3FontSize    : 20px ;
+@h4FontSize    : 18px ;
+@h5FontSize    : 16px ;
+@h6FontSize    : 14px ;
 
 
 // Margins
 // --------------------------------
 
-@hSpacing      : 1.414em 0 0.5em;  //headline separation;
-@pSpacing      : 1em;    //paragraph separation;
+// modifier top vs bottom (how asymmetrical is the margin of the titles)
+// leave 1 on both to symmetric margins)
+@hModTop       : 1.5;
+@hModBottom    :  .5;
+
+@base          : @baseFontSize * @lineHeight; //px
+
+//@hSpacing      : 1.414em 0 0.5em;  //headline separation;
+@pSpacing      : @base * 1em;    //paragraph separation;
 
 
 // #Global Element variables
@@ -46,8 +55,8 @@
 
 @elemWidth   : 9em;       // 1
 @elemSpan    : 1em;       // 2
-@elemPadding : 0.5em;     // 3
-@elemSpacing : 0.5em;     // 4
+@elemPadding : .5em;      // 3
+@elemSpacing : .5em;      // 4
 @elemIndent  : 1em;       // 5
 @elemBlock   : 0.5em 1em; // 6
 @elemRadius  : 3px;       //
@@ -131,9 +140,10 @@
 // - #Layout
 // ================================
 @gutter  : 10px;
-@grids   : "triad:3", "quad:4";
+@debug   : false;
 
 //grids separated by comma
+//@grids   : "triad:3", "quad:4";
 //Example: @grids: "cols:12";
 
 

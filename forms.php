@@ -16,7 +16,7 @@
                 <p>
                     Some basic styling for forms
                 </p>
-                <a class="btn btn-primary" target="_blank" href="#">See full standalone example</a>
+                <a class="btn btn-primary" target="_blank" href="demos/forms.html">See full standalone example</a>
             </section>
             <section id="form">
                 <h3 class="h2 title">Form</h3>
@@ -30,11 +30,11 @@
         <?php include('inc/simplefields.php') ?>
     </div>
 </div>
-<?php 
+<?php
 $form = file_get_contents('inc/simplefields.php');
 echo showCode('<div class="form">
 '.$form.'</div>') ?>
-</div>  
+</div>
         </section>
         <section id="form-horizontal">
             <h2 class="h1 title">Form Horizontal</h2>
@@ -48,11 +48,11 @@ echo showCode('<div class="form">
         <?php include('inc/simplefields.php') ?>
     </div>
 </div>
-<?php 
+<?php
 $form = file_get_contents('inc/simplefields.php');
 echo showCode('<div class="form form-horizontal">
 '.$form.'</div>') ?>
-</div>  
+</div>
         </section>
         <section id="input-append">
             <h2 class="h2 title">Input append</h2>
@@ -73,7 +73,7 @@ echo showCode('<div class="form form-horizontal">
     </div>
     </div>
 </div>
-<?php 
+<?php
 $form = file_get_contents('inc/simplefields.php');
 echo showCode('<div class="form form-horizontal">
     <div class="input">
@@ -85,7 +85,7 @@ echo showCode('<div class="form form-horizontal">
         </div>
     </div>
 </div>') ?>
-</div>  
+</div>
         </section>
         </div>
     </div>

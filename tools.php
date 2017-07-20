@@ -63,7 +63,7 @@
     <div class="float-right">...</div>
 </div>
 ') ?>
-</div>      
+</div>
             </section>
             <section id="display">
                 <h2 class="h2 title">Display</h2>
