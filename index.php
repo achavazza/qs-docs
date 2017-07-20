@@ -43,17 +43,17 @@
         </div>
         <div class="row">
             <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/quickstarter/archive/master.zip" class="btn btn-hollow btn-block uppercase">
+                <a href="https://github.com/achavazza/qs/archive/master.zip" class="btn btn-hollow btn-block uppercase">
                     Download .zip
                 </a>
             </div>
             <div class="triad-1 align-center">
-                <a href="https://github.com/achavazza/quickstarter" class="btn btn-hollow btn-block uppercase" target="_blank">
+                <a href="https://github.com/achavazza/qs" class="btn btn-hollow btn-block uppercase" target="_blank">
                     View on Github
                 </a>
             </div>
             <div class="triad-1 align-center">
-                <a href="/docs.php" class="btn btn-hollow btn-block uppercase">
+                <a href="/docs.html" class="btn btn-hollow btn-block uppercase">
                     See documentation
                 </a>
             </div>
